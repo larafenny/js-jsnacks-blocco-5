@@ -55,3 +55,32 @@ const zucchineArray = [
         lunghezza: 15,
     },
 ];
+
+
+// Funzione  che calcola il peso delle zucchine corte
+function pesoTotZucchineCorte(){
+    let pesoTot = 0;
+    for (let i=0; i<zucchineArray.length; i++){
+        const zucchinaObj = zucchineArray[i];
+        pesoTot += zucchinaObj.peso;
+    }
+    
+    console.log('Il peso tot delle zucccchine corte è: ' + pesoTot);
+    return pesoTot;
+}
+
+// Funzione  che calcola il peso delle zucchine lunghe
+function pesoTotZucchineLunghe(){
+    let pesoTot = 0;
+    for (let i=0; i<zucchineArray.length; i++){
+        const zucchinaObj = zucchineArray[i];
+        pesoTot += zucchinaObj.peso;
+    }
+    
+    console.log('Il peso tot delle zucccchine lunghe è: ' + pesoTot);
+    return pesoTot;
+
+}
+
+pesoTotZucchineCorte();
+pesoTotZucchineLunghe();

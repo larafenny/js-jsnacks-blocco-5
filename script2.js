@@ -56,6 +56,11 @@ const zucchineArray = [
     },
 ];
 
+// Creo array d'appoggio che riempiirò con le zuccchine corte e lunghe
+const zucchineCorte = [];
+const zucchineLunghe = [];
+
+
 // Funzione che ispeziona zucchineArray e inserisce le zucchine corte e lunghe in array distinti
 function dividerZucchine(){
     for (let i=0; i<zucchineArray.length; i++){
@@ -63,7 +68,7 @@ function dividerZucchine(){
         if (zucchinaObj.lunghezza<=15){
 
         }else{
-            
+
         }
 
     }

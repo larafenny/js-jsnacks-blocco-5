@@ -55,3 +55,21 @@ const zucchineArray = [
         lunghezza: 2.9,
     },
 ];
+
+/**
+ * Given an array of objects, return the total weight of all the objects
+ * @returns The total weight of all the zucchine objects in the array.
+ */
+function pesoTotZucchine(){
+    let pesoTot = 0;
+    for (let i=0; i<zucchineArray.length; i++){
+        const zucchinaObj = zucchineArray[i];
+        pesoTot += zucchinaObj.peso;
+    }
+    
+    console.log(pesoTot);
+    return pesoTot;
+
+}
+
+pesoTotZucchine();

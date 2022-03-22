@@ -56,6 +56,19 @@ const zucchineArray = [
     },
 ];
 
+// Funzione che ispeziona zucchineArray e inserisce le zucchine corte e lunghe in array distinti
+function dividerZucchine(){
+    for (let i=0; i<zucchineArray.length; i++){
+        const zucchinaObj = zucchineArray[i];
+        if (zucchinaObj.lunghezza<=15){
+
+        }else{
+            
+        }
+
+    }
+
+}
 
 // Funzione  che calcola il peso delle zucchine corte
 function pesoTotZucchineCorte(){

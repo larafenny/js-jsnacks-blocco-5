@@ -1,3 +1,7 @@
 console.log('JS ok');
 
-/*Crea un array di 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza. Calcola quanto pesano tutte le zucchine./*
+/*Crea un array di 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza. Calcola quanto pesano tutte le zucchine.*/
+
+// Creo array che contiene 10 elementi
+const zucchineeArray = [10];
+
